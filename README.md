@@ -122,5 +122,19 @@ The purpose of the following endpoint is only to allow people with the password 
 
 # Example React App Frontend
 
-The example website is self-explanatory. It uses React, a user-interface library for JavaScript. This is why there is a `components` folder. In deployment, these components are built and the JSX components is converted to static HTML. This is what is used in the live cloud deployed version: `lol`.
+The example website uses React, a user-interface library for JavaScript. This is why there is a `components` folder.
+
+There are two tabs in the menu at the top of the page: Lines and Stations.
+* Lines:
+    * This tab allows the user to view information about the 13 tube, DLR and overground lines that operate in London. This does not include the Elizabeth Line (Crossrail).
+    * The colours on the left-hand side provide a visual aid to quickly identify a line and correlate exactly to the colours used by TfL on all maps and signage across the network, in accordance with their [colour standards](http://content.tfl.gov.uk/tfl-colour-standards-issue04.pdf).
+    * The Line Mode simply relays information from the TfL API.
+    * The Line Status Code is used in conjunction with the Line Status to signify lines that are have disruptions or reduced service. The cells change colour from green to red to indicate atypical content.
+    * Finally, the Rating on the right-hand side displays the rating of a line and can be changed by any users with the correct password.
+    * Note: In order to see the variety in data in this table, it is worth loading the page at several different times (e.g. morning/evening rush hour and late at night).
+* Stations:
+    * This tab allows the user to search for stations on the network using thev search bar in the top right corner. 
+    * The roundel on each card represents the main mode (e.g. overground, tube or DLR) that is used at that station. HOWEVER, I have noticed that the data provided by the TfL API is inconsistent with other resources also provided by TfL (perhaps due to ongoing station alterations resulting from Crossrail construction). As such, it is worth considering these roundels as aesthetic.
+    * Each card also displays in which Zone each station is located (sometimes on the border), as well as the latitude and longitude of the station.
+    * Finally, at the bottom of each card, there is a link to the Google Maps entry for each station.
 
