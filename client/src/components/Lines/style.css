@@ -1,0 +1,52 @@
+.bakerloo {
+    background-color: rgb(178,99,0);
+}
+
+.circle {
+    background-color: rgb(255,211,41);
+}
+
+.central {
+    background-color: rgb(220,36,31);
+}
+
+.district {
+    background-color: rgb(0,125,50);
+}
+
+.metropolitan {
+    background-color: rgb(155,0,88);
+}
+
+.piccadilly {
+    background-color: rgb(0,25,168);
+}
+
+.victoria {
+    background-color: rgb(0,152,216);
+}
+
+.jubilee {
+    background-color: rgb(161,165,167);
+}
+
+.northern {
+    background-color: rgb(0,0,0);
+    color: white;
+}
+
+.dlr {
+    background-color: rgb(0,175,173);
+}
+
+.london-overground {
+    background-color: rgb(239,123,16);
+}
+
+.waterloo-city {
+    background-color: rgb(147,206,186);
+}
+
+.hammersmith-city {
+    background-color: rgb(244,169,190);
+}
