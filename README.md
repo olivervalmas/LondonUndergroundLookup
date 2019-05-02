@@ -1,4 +1,4 @@
-# Table of Contents
+# Contents
 
 1. London Underground Lookup API
 
@@ -9,8 +9,6 @@
 2. Example React App Frontend
 
 # London Underground Lookup API
-
-To view the live version example please navigate to `lol`.
 
 ## Server Installation and Start Up
 
